@@ -1,0 +1,13 @@
+/*
+Theme Name: allees-test
+Author: Andrej Stepuro
+Description: Description
+Version: 1.0.0
+Text Domain: allees-theme-test
+*/
+
+/*WIDGETS-----*/
+li.widget {
+	list-style: none;
+}
+/*-----WIDGETS*/
