@@ -14,7 +14,7 @@
     <link href="<?php echo get_template_directory_uri(); ?>/css/prettyPhoto.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/css/animate.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/css/main.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/css/my.less" rel="stylesheet">
+    <!-- <link href="<?php echo get_template_directory_uri(); ?>/css/my.less" rel="stylesheet"> -->
     <!--[if lt IE 9]>
     <script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/respond.min.js"></script>

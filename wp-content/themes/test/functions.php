@@ -32,14 +32,17 @@ function register_menus(){
 add_action( 'after_setup_theme', 'register_menus' );
 
 function load_scripts() {
-	wp_enqueue_script(
-	     'less.js'
-	    ,TEMPLATEPATH."/js/less.js"
-	    // ,deps
-	    // ,ver
-	    // ,in_footer
+	// wp_enqueue_script(
+	//      'less.js'
+	//     , get_bloginfo('template_directory')."/js/less.js"
+	//     // ,deps
+	//     // ,ver
+	//     // ,in_footer
+	// );
+	wp_enqueue_style(
+		'my_less'
+		, get_bloginfo('template_directory')."/css/my.less"
 	);
-
 }
 
 add_action( 'wp_enqueue_scripts', 'load_scripts' );

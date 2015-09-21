@@ -1,0 +1,6 @@
+#menu-topmenu .menu-item-has-children {
+  color: red;
+}
+#menu-topmenu .sub-menu {
+  display: none;
+}
