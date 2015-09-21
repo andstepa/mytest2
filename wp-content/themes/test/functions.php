@@ -31,4 +31,17 @@ function register_menus(){
 
 add_action( 'after_setup_theme', 'register_menus' );
 
+function load_scripts() {
+	wp_enqueue_script(
+	     'less.js'
+	    ,TEMPLATEPATH."/js/less.js"
+	    // ,deps
+	    // ,ver
+	    // ,in_footer
+	);
+
+}
+
+add_action( 'wp_enqueue_scripts', 'load_scripts' );
+
 ?>
