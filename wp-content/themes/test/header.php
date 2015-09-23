@@ -60,7 +60,8 @@
                         'link_before'     => '',
                         'link_after'      => '',
                         'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-                        'depth'           => 0
+                        'depth'           => 0,
+                        'walker'          => new walker_bootstrap_menu
                     ) );                
                 ?>
                 <ul class="nav navbar-nav navbar-right">
